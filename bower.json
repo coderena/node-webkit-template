@@ -1,0 +1,21 @@
+{
+  "name": "node-webkit-template",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tyrchen/node-webkit-template",
+  "authors": [
+    "Tyr Chen"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.3.0",
+    "bootstrap": "~3.1.1"
+  }
+}
