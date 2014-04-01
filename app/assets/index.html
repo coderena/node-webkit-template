@@ -8,9 +8,12 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="DIGEST(styles/app.css)">
-    <script src="DIGEST(scripts/vendor.js)" defer></script>
-    <script src="DIGEST(scripts/app.js)" defer onload="require('initialize');">
+    <script type="text/javascript">
+      window.requireNode = window.require;
+      window.require = undefined; 
     </script>
+    <script src="DIGEST(scripts/vendor.js)" defer></script>
+    <script src="DIGEST(scripts/app.js)" defer onload="require('initialize');"></script>
   </head>
   <body>
   </body>
